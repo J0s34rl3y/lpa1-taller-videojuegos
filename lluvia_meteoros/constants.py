@@ -11,13 +11,29 @@ YELLOW = (255,255,0)
 
 #TAMAÑOS    
 PLAYER_SIZE = (80,80)
+ENEMY_SIZE = (60,60)
 METEOR_SIZE ={
     "grande":(80,80),
     "mediano":(60,60),
     "pequeño":(40,40)
     
 }
+# Dimensiones de los fondos
+FONDO_METEOROS_SIZE = (WIDTH, HEIGHT)
+FONDO_ENEMIGOS_SIZE = (WIDTH, HEIGHT)
+FONDO_TESOROS_SIZE = (WIDTH, HEIGHT)
 
 
 #tiempos 
 SHOOT_DELAY =250
+
+#sistemas de vida
+INITIAL_LIVES =3
+INVULNERABILITY_TIME = 2000
+
+#power-ups
+POWERUP_SIZE = (30,30) #tamaño del power up
+POWERUP_SPEED = 3     # VELOCIDAD DE CAIDA
+POWERUP_DURATION = 5000 #DURACION DE 5 SEGUNDOS
+AURA_DURATION = 5000 
+
